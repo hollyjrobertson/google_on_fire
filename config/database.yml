@@ -50,8 +50,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: google_on_fire_production
+  database: ebdb
   username: admin
   password: googleadmin
-  host:
-    port:
+  host: aa1sx5z3gnf7ax.cqla6leq2yyq.us-west-2.rds.amazonaws.com
+  port: 3306
