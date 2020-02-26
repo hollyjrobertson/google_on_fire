@@ -48,8 +48,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: mysql2
-  encoding: utf8
+  adapter: <%= ENV.fetch("db_adapter") %>
+  encoding: <%= ENV.fetch("db_encoding") %>
   database: <%= ENV.fetch("db_production_database") %>
   username: <%= ENV.fetch("db_production_username") %>
   password: <%= ENV.fetch("db_production_password") %>

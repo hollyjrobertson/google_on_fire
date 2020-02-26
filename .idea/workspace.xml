@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/files/GoogleAccountManager_7.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/files/GooglePlayServices_20.06.15_120400.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/files/GooglePlayStore_18.8.16.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/files/GoogleServicesFramework_10_5771379.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/file_manager_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/file_manager_controller_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome_page/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome_page/welcome.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +150,7 @@
       <workItem from="1582589853423" duration="1609000" />
       <workItem from="1582671280070" duration="10000" />
       <workItem from="1582671808864" duration="4463000" />
-      <workItem from="1582676562489" duration="1576000" />
+      <workItem from="1582676562489" duration="3411000" />
     </task>
     <servers />
   </component>
@@ -158,10 +165,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582240804728" />
-    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582241302105">
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582679245953">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1582241302105" />
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1582679245953" />
     <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582243194170">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
