@@ -53,5 +53,5 @@ production:
   database: ENV["db_production_database"]
   username: ENV["db_production_username"]
   password: ENV["db_production_password"]
-  host: ENV["db_production_host"]
+  host: aa1sx5z3gnf7ax.cqla6leq2yyq.us-west-2.rds.amazonaws.com
   port: ENV["db_production_port"]
