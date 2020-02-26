@@ -50,8 +50,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: ENV["db_production_database"]
+  database: <%= ENV.fetch("db_production_database") %>
   username: <%= ENV.fetch("db_production_username") %>
-  password: ENV["db_production_password"]
-  host: aa1sx5z3gnf7ax.cqla6leq2yyq.us-west-2.rds.amazonaws.com
-  port: ENV["db_production_port"]
+  password: <%= ENV.fetch("db_production_password") %>
+  host:  <%= ENV.fetch("db_production_host") %>
+  port: <%= ENV.fetch("db_production_port") %>

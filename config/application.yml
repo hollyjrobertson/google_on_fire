@@ -5,4 +5,5 @@ development_secret_key_base: '287e1feae797c36863429159afe64d0beb563cbfd2f59d75b5
 db_production_database: 'ebdb'
 db_production_username: 'admin'
 db_production_password: 'googleadmin'
+db_production_host: 'aa1sx5z3gnf7ax.cqla6leq2yyq.us-west-2.rds.amazonaws.com'
 db_production_port: '3306'

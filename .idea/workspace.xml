@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.elasticbeanstalk/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/09/09-0KvWZHZy3ozISNkaQM6xJM30vwm2AzB7PJL-UD3c.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1Y/1YiTS2LeCqZk_8v1Jeuk97dQh6ddylZqBOAC4x5-XQQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1l/1lEi_Dw5IiBfbtu04HplabvMdSBJ4PhLs2suJidm8_U.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2u/2ubDABnXdnt0KRA5c9q8LUrxEraz5BiYz8mezi4d-4w.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4-/4-UhDAK1VOVDtFPWhZKR-7M5BjGg0StyiVswpzwHUFA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5C/5CGX1Uxm__ZENmZhY_i1-JGofruInHMaztgHU4lGSzc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5k/5k7DNSE_r88TNM0USjFLYqIsFOm7xy-XHtTpG_lp-As.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5q/5qPk4vJc2UfJmRop77oICO9ScUqs1F-9zgImjtBH1XY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6X/6X0VKc61_M4_UP0ssbg91Sf71oYm_stkw7blw57qbbo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6i/6ivMhYEHjlAY0IvVZl30TkAa9IvRBKbg35Cz6Zsz7gQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7Z/7Z7BF_va-6RbaF1XHFxt5zwx2-vhUSedEVfwHxH9Y7s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8p/8pTQm-DkTtAMv3kQKGRy-DKF4a71gtrKyNiblwZMIm0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8y/8yXn7KDXg8oRCC2D3ylWAwpN-0OQo1i-SxNzGGrFDAE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bv/BvAOeZtOjo5kO5GZwLKFddobx_kG_AytViHLnTvd67Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ca/CazCg1uzXCnZvYO7MH0O9f01kOSV26kVHFAQvXeLn2s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DM/DMLpRR2N7ixaMlm6ys8AnIjQKgq4KNQb5rwgzmIFuBU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FL/FLP7txmUO_O0AGlk_ITLxOAX8zP4n9O5bpUx_sfAJZY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gh/GhaZ1PNbGEPHMTWy1prV62qp_JkzkpYMn9hhbwBDpCw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Le/LeEAkkqswDr7uASt4AwPda2eKMvqHgqdmoNDYV8slcE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MC/MCIi9oLSKliMj8fPkm6waE0Ko0Mq-vxcnP7SLnO3Bus.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8RPwkal5GgdCqvyVH5FZQ_Zp2EwQj8mZ_Ks8TfCeWo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P6/P6DyanNOSS6ElGAtISlbCpqXmFeR_hFQLEyHXNWjndM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sd/SdN982zbH3m2xEDJreCFwc7dIzPIAvxHrOLnW0N8vEg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sy/SyuNN3bg_eF54_cLRO2I-ymfb9ldPJmv-L4RFf-jNfU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/V_/V_jNDeiDo-sd5Q9HoynsNehRQb2lTbiH0tM_IuHYnbk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wk/Wk3bHyexJxJFK96UMzVTAlnuxF67_iZqd23A4eEQLh4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y0/Y0ARTLjbZ4YG8Y9KZMF6CaXv6fy9GuFdXb7kZMWPuY8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YY/YYVSfqdGTPrCHdLMyehtXQBhaV9TS6q3HeNBAAgQWkE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Z7/Z7FVPy0JYw17KoT3E-LXpw5f9L-e4SbnA5AzPfAKTE0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zv/ZvCEW2ZyS-k4cHH7Gd8P2nKFE9Uh1VOrfR-1PYY2yz8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_3/_3GNBJkrmweNbI0wlVuF3xJ3ZuNT1CECbyLTlv7HPws.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_N/_N1RRytNvPmBv8839FWW3Vh6jl_2rqIp_DzNtUUTBYk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aO8FSWGtQ5MVhc3i9phdDlK_06NzT0OvGbWRx9payrA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cI/cIyqcRaKaLHI2-tFL9GppheA0NIm8EKUHqafnFFu3UU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cR/cRf_thvStv5ddhK9QrOQjYQcTyo5IW3Yu769xvRDIJ8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cY/cYZEWKyIzdCyymNWvMpK_Uho7jF_792ddsasUY1lbKE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eW/eWyj0Cy_Un3E84NyeYr0B65LEd5zMKsWPYnZnuWlLf0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eY/eYb_Aay2EjpeSK8MEifiHDhr5lutVx7uL2M-hTylzt8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gt/gtxj9Jn4j5a996ninCWlxlpt64aEsa5MR7rGNY2pEjM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hH/hHiBWkLr1RTG7cUcnDzIBAYVGQ7xXOLEbJXR9fmpHWI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nQ/nQWzE9dpRZuA9Td3qWx29DSYjr_2kTKCJVWWuhoJk3k.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pv/pvxRgFvGcI1mP6Td2-ZFXqROY-Dm0vnaRjt5YsvnEkE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qO/qOUoLm64IJplvz_TBD-MX9ZXuZrIOAxDDgM6ZFLN0Xk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rO/rOsnmZ2Xytw_CDV9KDalm-3Z2-HjBEUESMX7utuLsh0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tm/tm8c_RhYozGiuo6ioEqe66IwzPqmEe2zoVcAIFmAyug.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uZ/uZYaz6izNyiR1T2tYNOOHRQ0iah9wTyxxvTk3eAAHVU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/z1/z1Uq15Z95HfBoBpZ8IzbkuE2Kf5UrXbKFXK2X4jepiM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/z4/z4l0if7_8ZcGwMyQsJi_Z1-OmF9o6hC87i5vQnIlCKk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/restart.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Holly\Google Drive\WEBD 435\Google_on_Fire\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y5m1Qk8bIloMrp29cv8rkCuyes" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dead_google_on_fire" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Rails.Development: Google_on_Fire">
+    <configuration name="Development: Google_on_Fire" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="Google_on_Fire" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: Google_on_Fire" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="Google_on_Fire" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: Google_on_Fire" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="Google_on_Fire" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: Google_on_Fire" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="Google_on_Fire" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="" />
+      <created>1582240614092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582240614092</updated>
+      <workItem from="1582240617954" duration="3608000" />
+      <workItem from="1582589853423" duration="1609000" />
+      <workItem from="1582671280070" duration="10000" />
+      <workItem from="1582671808864" duration="4463000" />
+      <workItem from="1582676562489" duration="807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582240804728">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582240804728" />
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582241302105">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1582241302105" />
+    <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582243194170">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582243194170" />
+    <state x="489" y="979" key="FileChooserDialogImpl" timestamp="1582590075655">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1582590075655" />
+    <state x="365" y="595" key="run.anything.popup" timestamp="1582673034935">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="365" y="595" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1582673034935" />
+  </component>
+</project>
