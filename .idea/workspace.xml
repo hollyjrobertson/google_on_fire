@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1582589853423" duration="1609000" />
       <workItem from="1582671280070" duration="10000" />
       <workItem from="1582671808864" duration="4463000" />
-      <workItem from="1582676562489" duration="5861000" />
+      <workItem from="1582676562489" duration="6473000" />
     </task>
     <servers />
   </component>
