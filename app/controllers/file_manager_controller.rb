@@ -36,9 +36,4 @@ class FileManagerController < ApplicationController
         type: "application/vnd.android.package-archive"
     )
   end
-
-  def download_all
-      download_accountmanager
-      download_playstore
-    end
 end
