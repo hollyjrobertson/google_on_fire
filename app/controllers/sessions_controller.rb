@@ -20,4 +20,7 @@ class SessionsController < ApplicationController
   end
   def page_requires_login
   end
+  def destroy
+
+  end
 end
