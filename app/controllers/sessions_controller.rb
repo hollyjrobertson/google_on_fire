@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       session[:user_id] = @user.id
       redirect_to '/welcome'
     else
-      flash[:danger] = 'Invalid email/password combination' # Not quite right!
+      @error = "error message"
       redirect_to '/login'
     end
   end

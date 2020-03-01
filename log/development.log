@@ -875,3 +875,1025 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 140ms (Views: 115.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-01 10:37:05 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (223.3ms)
+Completed 500 Internal Server Error in 318ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `error_message' for #<#<Class:0x730f290>:0x5afc240>):
+    1: <h1>Welcome</h1>
+    2: <% error_message %>
+    3: 
+    4: <%if logged_in?%>
+    5:   <h1>You are Logged In, <%= current_user.username %></h1>
+  
+app/views/sessions/welcome.html.erb:2:in `_app_views_sessions_welcome_html_erb___844117084_47705556'
+Started GET "/" for ::1 at 2020-03-01 10:37:09 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (652.4ms)
+Completed 500 Internal Server Error in 1528ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `error_message' for #<#<Class:0x730f290>:0x9f1d8f8>):
+    1: <h1>Welcome</h1>
+    2: <% error_message %>
+    3: 
+    4: <%if logged_in?%>
+    5:   <h1>You are Logged In, <%= current_user.username %></h1>
+  
+app/views/sessions/welcome.html.erb:2:in `_app_views_sessions_welcome_html_erb___844117084_83424132'
+Started GET "/" for ::1 at 2020-03-01 10:37:41 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (216.0ms)
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `error_message' for #<#<Class:0xe27f0b8>:0xe27dfa8>):
+    1: <h1>Welcome</h1>
+    2: <% error_message %>
+    3: 
+    4: <%if logged_in?%>
+    5:   <h1>You are Logged In, <%= current_user.username %></h1>
+  
+app/views/sessions/welcome.html.erb:2:in `_app_views_sessions_welcome_html_erb___844117084_118750056'
+Started GET "/" for ::1 at 2020-03-01 10:38:13 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  Rendered sessions/welcome.html.erb within layouts/application (195.1ms)
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `error_message' for #<#<Class:0xe27f0b8>:0xc2a61c8>):
+    1: <h1>Welcome</h1>
+    2: <% error_message %>
+    3: 
+    4: <%if logged_in?%>
+    5:   <h1>You are Logged In, <%= current_user.username %></h1>
+  
+app/views/sessions/welcome.html.erb:2:in `_app_views_sessions_welcome_html_erb___844117084_102052824'
+Started GET "/" for ::1 at 2020-03-01 10:38:50 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 160ms (Views: 135.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:38:52 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (223.2ms)
+Completed 500 Internal Server Error in 320ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `error_message' for #<#<Class:0xe27f0b8>:0xb245dd0>):
+     7:   <%= password_field_tag :password%><br>
+     8: 
+     9:   <%= submit_tag "Login" %><br>
+    10:   <% error_message %>
+    11: <%end%>
+  
+app/views/sessions/new.html.erb:10:in `block in _app_views_sessions_new_html_erb__723094910_93467100'
+app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb__723094910_93467100'
+Started GET "/" for ::1 at 2020-03-01 10:39:46 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 145ms (Views: 121.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:39:49 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 10:39:56 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y5nsYMKhftNqVCmoQucvClBgIkPsugheyEYV5c+KFIL79f1Rd7nxq33pjND9wLPNRMNYl9Ze4FqX9rE5JP0OeA==", "username"=>"kdkfd", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'kdkfd' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:39:56 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 137ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:42:53 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 147ms (Views: 119.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:42:54 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 147ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 10:42:58 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lYDVpygrXtqiMFmn2SGzM2tXrB1GNR2A7W/mMR/6SZGl7MSWnTPRorWN/N9mBi/0f/TWyXzR9YSy30Lt9I1Taw==", "username"=>"SnowOwlAustin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'SnowOwlAustin' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:42:58 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 141ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:46:42 -0600
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 334ms (Views: 299.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:46:53 -0600
+Processing by SessionsController#welcome as HTML
+Started POST "/login" for ::1 at 2020-03-01 10:46:53 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wUNPjscidDMdAj++OsKk1VpZrA2BO60sGF/iCPq319nxL16/cjr7Swq/msaF5TgSTvrW2bvfRShH70bUEcDNIw==", "username"=>"hollyjrobertson", "password"=>"[FILTERED]", "commit"=>"Login"}
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'hollyjrobertson' LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (23.5ms)
+Redirected to http://localhost:3000/login
+Completed 302 Found in 31ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:46:53 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 312ms (Views: 284.0ms | ActiveRecord: 3.0ms)
+
+
+Completed 200 OK in 167ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:47:52 -0600
+Processing by SessionsController#welcome as HTML
+Started POST "/login" for ::1 at 2020-03-01 10:48:02 -0600
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 159ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y0aq/Nd2GAljStqMLUuN6bX2nFJfuaYEZT+WgvVjjrNTKrvNYm6XcXT3f/SSbBEuoVXmhmVdTgA6jzJeHhSUSQ==", "username"=>"callow16", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 9ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:48:03 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 161ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 10:48:29 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QJdi9uWS+Q2EBIJQCTkKM7JyQDBn3CKEUEaCxhxesY5w+3PHUIp2dZO5Jyi2Hpb0ptE65F04yoAP9iYa9ymrdA==", "username"=>"callow16", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:48:29 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 147ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:03 -0600
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 19ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:50:12 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 344ms (Views: 321.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:14 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:15 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:16 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:21 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:22 -0600
+Processing by SessionsController#create as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:50:52 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 146ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:56:57 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 162ms (Views: 138.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:57:09 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 153ms (Views: 128.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:57:10 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 148ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:57:27 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 143ms (Views: 115.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for ::1 at 2020-03-01 10:58:33 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 180ms (Views: 139.2ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/users" for ::1 at 2020-03-01 10:58:38 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmWa9M+b2E2Jz4oHKPZozbqgZTygZjoADinI91ijxP5uCYvFeoNXNZ5yL3+X0fQKrgMf6JqC0gRRmWwrs9TeBA==", "user"=>{"username"=>"holly", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `created_at`, `updated_at`) VALUES ('holly', '$2a$12$dFTf363mEGIoZZ6fFgMhW.au5cthQHQ5PCLHjty9DExnEOW3x2G7O', '2020-03-01 16:58:38', '2020-03-01 16:58:38')[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 250ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-01 10:58:38 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered sessions/welcome.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 155ms (Views: 129.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-01 10:58:42 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 145ms (Views: 121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-03-01 10:58:44 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 145ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-03-01 10:58:47 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KTr00sds1AmF/hmxrJieEA3XW6X3QRvJ4SAAB78fHhlatI4ZPsMUh50G0mOSR7VGkREvzNUUohYNNifbKpjN4A==", "user"=>{"username"=>"holly", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `created_at`, `updated_at`) VALUES ('holly', '$2a$12$DiKvuKQKtM1.5bjIjfk5n.1HzaUq7OZCPA.DSorG3kgIyTapm41J2', '2020-03-01 16:58:48', '2020-03-01 16:58:48')[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 250ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-01 10:58:48 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered sessions/welcome.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 148ms (Views: 122.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-01 11:00:26 -0600
+  
+SyntaxError (C:/Users/Holly/Google Drive/WEBD 435/google_on_fire/app/controllers/sessions_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sessions_controller.rb:26: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/welcome" for ::1 at 2020-03-01 11:00:56 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 153ms (Views: 125.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:01:01 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:01:06 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e/8L9yOSWkN3GeFn5ExYv+5hJLVYoVfgGKM31v1S+rinFgjTqL5PwpbTdphkvyGhQnE+J9DGTIVi/wUNdrTwXQ==", "username"=>"callow16@email.franklin.edu", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16@email.franklin.edu' LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/sessions_controller.rb:12:in `format'
+app/controllers/sessions_controller.rb:12:in `create'
+Started POST "/login" for ::1 at 2020-03-01 11:01:42 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e/8L9yOSWkN3GeFn5ExYv+5hJLVYoVfgGKM31v1S+rinFgjTqL5PwpbTdphkvyGhQnE+J9DGTIVi/wUNdrTwXQ==", "username"=>"callow16@email.franklin.edu", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16@email.franklin.edu' LIMIT 1[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 2.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/sessions_controller.rb:12:in `format'
+app/controllers/sessions_controller.rb:12:in `create'
+Started POST "/login" for ::1 at 2020-03-01 11:02:21 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e/8L9yOSWkN3GeFn5ExYv+5hJLVYoVfgGKM31v1S+rinFgjTqL5PwpbTdphkvyGhQnE+J9DGTIVi/wUNdrTwXQ==", "username"=>"callow16@email.franklin.edu", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16@email.franklin.edu' LIMIT 1[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/sessions_controller.rb:12:in `format'
+app/controllers/sessions_controller.rb:12:in `create'
+Started GET "/" for ::1 at 2020-03-01 11:04:47 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 155ms (Views: 130.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:04:49 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:05:00 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vF59VK0WCPSYwdWBsWQ72XU7QvC5kVy0Z2FmItr3vqhgt35wJjoddXkLQn4xl0LH2StYYjH2R9EdPVT5URG0TQ==", "username"=>"callow16@email.franklin.edu", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16@email.franklin.edu' LIMIT 1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `[]=' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:12:in `create'
+Started GET "/" for ::1 at 2020-03-01 11:05:33 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 151ms (Views: 124.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:05:35 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 148ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:05:38 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nIF2JRUp+QWu4rzC74ejBWtqp5EfWQe/+ujQt8hO1EVAaHUBngXshE8oKz1vdNobx3q9A5c+HNqAtOJsQ6jeoA==", "username"=>"dfdsf", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'dfdsf' LIMIT 1[0m
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 1.4ms)
+
+
+  
+NameError (undefined local variable or method `user' for #<SessionsController:0xc7e6fd8>
+Did you mean?  @user):
+  
+app/controllers/sessions_controller.rb:12:in `create'
+Started GET "/" for ::1 at 2020-03-01 11:06:45 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 149ms (Views: 121.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:06:49 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:06:58 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ANxJClLYu+ximjX5E/g5yGUg4tZmQdjBDrJ8MWa9dzPcNUou2fSubYNQogaTC0DWyTD4RO4mw6R07k7q7Vt91g==", "username"=>"Hollyc", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'Hollyc' LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `error' for {:error=>"Invalid"}:Hash):
+  
+app/controllers/sessions_controller.rb:13:in `create'
+Started GET "/" for ::1 at 2020-03-01 11:10:05 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 148ms (Views: 123.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:10:08 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:10:10 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EWKn9A3op3X6VMClja/pDJFfWxxAnWVJBzHyV53GSXHNi6TQhsSy9BueV1oNXJASPU9Bjsj6fix9bcCMFiBDlA==", "username"=>"dfsd", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'dfsd' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:10:11 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 11:10:26 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 147ms (Views: 122.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:10:28 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:10:32 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gUUfgwjLz9EA7WkmW0QTQH98pTPFbm2fdBgyczfllzRdrByng+faUOEn/tnbt2pe02y/oU0JdvoORACovAOd0Q==", "username"=>"dfsdf", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'dfsdf' LIMIT 1[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/sessions_controller.rb:12:in `+'
+app/controllers/sessions_controller.rb:12:in `create'
+Started POST "/login" for ::1 at 2020-03-01 11:10:59 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gUUfgwjLz9EA7WkmW0QTQH98pTPFbm2fdBgyczfllzRdrByng+faUOEn/tnbt2pe02y/oU0JdvoORACovAOd0Q==", "username"=>"dfsdf", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'dfsdf' LIMIT 1[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/sessions_controller.rb:12:in `+'
+app/controllers/sessions_controller.rb:12:in `create'
+Started GET "/" for ::1 at 2020-03-01 11:13:40 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 143ms (Views: 118.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:13:42 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 145ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:13:46 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7BtvXclv6yTsNRWD1KOvSt8fQQiIU+Nfg2DPVJW/R7Ew8mx5QkP+pQ3/gnxUUNZUcw9bmgA0+Dr5PP2PHllNVA==", "username"=>"Hollycalloway", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'Hollycalloway' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:13:46 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 137ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 11:13:57 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 145ms (Views: 118.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:13:58 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 11:14:03 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D8S7rK8/GTrAf7sfqqT7MQPnZqJd6Dkiwtbz+x0/pijTLbiIJBMMuyG1LOAqV4Ivr/d8MNWPIke4isEgltmszQ==", "username"=>"SnowOwlAustin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'SnowOwlAustin' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 11:14:03 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+
+
