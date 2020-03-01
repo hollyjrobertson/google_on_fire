@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Google_on_Fire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Google_on_Fire.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/create.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/login.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/page_requires_login.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/create.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +143,7 @@
       <workItem from="1582671280070" duration="10000" />
       <workItem from="1582671808864" duration="4463000" />
       <workItem from="1582676562489" duration="10660000" />
-      <workItem from="1583077420389" duration="1474000" />
+      <workItem from="1583077420389" duration="1839000" />
     </task>
     <servers />
   </component>
