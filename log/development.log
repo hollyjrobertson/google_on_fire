@@ -775,3 +775,103 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 140ms (Views: 115.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/signup" for ::1 at 2020-03-01 10:25:44 -0600
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 357ms (Views: 308.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:26:35 -0600
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 161ms (Views: 134.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:26:37 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 148ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 10:26:41 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4mpU07O2YrN4ANTdWc8JqQfCcvAceq/kgDMbSo5kv0OGrvV0I3RIRSTRzD+waHTtH4IbBQwvQZWp/J0DbIF/GA==", "username"=>"matt", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'matt' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:26:41 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 153ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:29:55 -0600
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 335ms (Views: 302.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:30:06 -0600
+Processing by SessionsController#welcome as HTML
+Started POST "/login" for ::1 at 2020-03-01 10:30:06 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l8Wfr11UGUhcgnPT7B5vfQFm/iKSZGa5acF+0WNFaOzzAT4IzZYzvgBTazEFuRI5GSaX14IxiMhADviYgaCotw==", "username"=>"callow16", "password"=>"[FILTERED]", "commit"=>"Login"}
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'callow16' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 59ms (ActiveRecord: 2.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (31.9ms)
+Started GET "/login" for ::1 at 2020-03-01 10:30:06 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 361ms (Views: 315.4ms | ActiveRecord: 1.0ms)
+
+
+Completed 200 OK in 192ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-01 10:32:01 -0600
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 337ms (Views: 302.8ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/login" for ::1 at 2020-03-01 10:32:11 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2C01DnOM09CveSM6QNpZS7rCfyIYnI2L+QtvPxvBo/686ZSp4075JvOoO9ipfSQPooIW1wjJY/rQxOl2+SRjpQ==", "username"=>"Hollycalloway", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'Hollycalloway' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 33ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-01 10:32:11 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 140ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
