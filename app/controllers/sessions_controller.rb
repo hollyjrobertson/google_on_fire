@@ -9,7 +9,8 @@ class SessionsController < ApplicationController
       session[:user_id] = @user.id
       redirect_to '/welcome'
     else
-      @error = "error message"
+      @error = "Invalid"
+      puts(@error)
       redirect_to '/login'
     end
   end
@@ -22,6 +23,6 @@ class SessionsController < ApplicationController
   def page_requires_login
   end
   def destroy
-
   end
+
 end
