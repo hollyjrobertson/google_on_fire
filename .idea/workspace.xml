@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5q/5qPk4vJc2UfJmRop77oICO9ScUqs1F-9zgImjtBH1XY.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5q/5qPk4vJc2UfJmRop77oICO9ScUqs1F-9zgImjtBH1XY.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8y/8yXn7KDXg8oRCC2D3ylWAwpN-0OQo1i-SxNzGGrFDAE.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8y/8yXn7KDXg8oRCC2D3ylWAwpN-0OQo1i-SxNzGGrFDAE.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cd/CdACsonnZywH6-CmWQFcxhpTKNB9ynEFIOm2t5FA6OA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cd/CdACsonnZywH6-CmWQFcxhpTKNB9ynEFIOm2t5FA6OA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LW/LW0qPV6dVnWSGQT65lb1gLvpWAvCKjJYA6ub4UjdP_4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LW/LW0qPV6dVnWSGQT65lb1gLvpWAvCKjJYA6ub4UjdP_4.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8RPwkal5GgdCqvyVH5FZQ_Zp2EwQj8mZ_Ks8TfCeWo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8RPwkal5GgdCqvyVH5FZQ_Zp2EwQj8mZ_Ks8TfCeWo.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q8/Q8KZKhBzHK-5uqZE70H4BzhHtkm1iHWVBPLwjiQSuYc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q8/Q8KZKhBzHK-5uqZE70H4BzhHtkm1iHWVBPLwjiQSuYc.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aO8FSWGtQ5MVhc3i9phdDlK_06NzT0OvGbWRx9payrA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aO8FSWGtQ5MVhc3i9phdDlK_06NzT0OvGbWRx9payrA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nX/nXHp2_uk96xhej_YgoZoWpMCMFWe3gdrbiFn0mHkaZw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nX/nXHp2_uk96xhej_YgoZoWpMCMFWe3gdrbiFn0mHkaZw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qG/qGlhS3uh639yuUq-BTL2A3_d1DrOoYcCUrMXvyLyFhU.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qG/qGlhS3uh639yuUq-BTL2A3_d1DrOoYcCUrMXvyLyFhU.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tm/tm8c_RhYozGiuo6ioEqe66IwzPqmEe2zoVcAIFmAyug.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tm/tm8c_RhYozGiuo6ioEqe66IwzPqmEe2zoVcAIFmAyug.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wB/wBQa8gZ8hP3qSgTuxt5vnyB8KLWQNlJJd9iIX7NQ9RA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wB/wBQa8gZ8hP3qSgTuxt5vnyB8KLWQNlJJd9iIX7NQ9RA.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +147,7 @@
       <workItem from="1582671280070" duration="10000" />
       <workItem from="1582671808864" duration="4463000" />
       <workItem from="1582676562489" duration="10660000" />
-      <workItem from="1583077420389" duration="9033000" />
+      <workItem from="1583077420389" duration="11034000" />
     </task>
     <servers />
   </component>
