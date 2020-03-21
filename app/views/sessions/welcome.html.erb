@@ -5,6 +5,7 @@
   <p>
     Download Account Manager: <%= link_to "Download", "file_manager/download_accountmanager", :method => :post%>
   </p>
+  <%= button_to "Logout", '/logout', method: :delete%>
 <%end%>
 
 <%= button_to "Login", '/login', method: :get%>

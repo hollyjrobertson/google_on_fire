@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   post 'file_manager/download_accountmanager', to: 'file_manager#download_accountmanager'
 
   root 'sessions#welcome'
+
 end
