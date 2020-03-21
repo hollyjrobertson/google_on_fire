@@ -3726,3 +3726,80 @@ Processing by SessionsController#welcome as HTML
 Completed 200 OK in 179ms (Views: 154.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-17 18:59:45 -0500
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 583ms (Views: 542.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-17 19:00:03 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 185ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-21 18:23:58 -0500
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered sessions/welcome.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 552ms (Views: 516.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-03-21 18:24:37 -0500
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 218ms (Views: 175.3ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/users" for ::1 at 2020-03-21 18:24:48 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eFJJgylmHfqMyL+/P+bqGR4vYXlNI4g9yv+R/pLXxa1dY/ASXcogBC5tq4vyn3LVb4xoBsEqTb6pRBiuZcg70A==", "user"=>{"username"=>"hollyjo", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[32mINSERT INTO `users` (`username`, `password_digest`, `created_at`, `updated_at`) VALUES ('hollyjo', '$2a$12$qaAFm4w0SQ9Sfan3qa5Qle6OXx/2/DIT5orw6hV0hXK1KbZIrWp5e', '2020-03-21 23:24:48', '2020-03-21 23:24:48')[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 253ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-21 18:24:48 -0500
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 7 LIMIT 1[0m
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 7 LIMIT 1[0m  [["id", 7], ["LIMIT", 1]]
+  Rendered sessions/welcome.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 183ms (Views: 157.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2020-03-21 18:24:58 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 162ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-03-21 18:25:04 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YTqbEzGQvD4iTPv+gQrFBz9YGA3cMdnlxESQAs3lbhVECyKCRTyBwIDp78pMc13LTvsRclA4HGan/xlSOvqQaA==", "username"=>"hollyjo", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'hollyjo' LIMIT 1[0m
+Redirected to http://localhost:3000/welcome
+Completed 302 Found in 253ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2020-03-21 18:25:04 -0500
+Processing by SessionsController#welcome as HTML
+  Rendering sessions/welcome.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 7 LIMIT 1[0m
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 7 LIMIT 1[0m  [["id", 7], ["LIMIT", 1]]
+  Rendered sessions/welcome.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 162ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
