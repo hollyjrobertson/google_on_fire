@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/contact.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cd/CdACsonnZywH6-CmWQFcxhpTKNB9ynEFIOm2t5FA6OA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cd/CdACsonnZywH6-CmWQFcxhpTKNB9ynEFIOm2t5FA6OA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LW/LW0qPV6dVnWSGQT65lb1gLvpWAvCKjJYA6ub4UjdP_4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LW/LW0qPV6dVnWSGQT65lb1gLvpWAvCKjJYA6ub4UjdP_4.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q8/Q8KZKhBzHK-5uqZE70H4BzhHtkm1iHWVBPLwjiQSuYc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q8/Q8KZKhBzHK-5uqZE70H4BzhHtkm1iHWVBPLwjiQSuYc.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nX/nXHp2_uk96xhej_YgoZoWpMCMFWe3gdrbiFn0mHkaZw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nX/nXHp2_uk96xhej_YgoZoWpMCMFWe3gdrbiFn0mHkaZw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qG/qGlhS3uh639yuUq-BTL2A3_d1DrOoYcCUrMXvyLyFhU.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qG/qGlhS3uh639yuUq-BTL2A3_d1DrOoYcCUrMXvyLyFhU.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wB/wBQa8gZ8hP3qSgTuxt5vnyB8KLWQNlJJd9iIX7NQ9RA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wB/wBQa8gZ8hP3qSgTuxt5vnyB8KLWQNlJJd9iIX7NQ9RA.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +59,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\sessions" />
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\layouts" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
     </key>
   </component>
@@ -200,7 +188,9 @@
       <workItem from="1584489453614" duration="1613000" />
       <workItem from="1584568653615" duration="295000" />
       <workItem from="1584578985199" duration="2975000" />
-      <workItem from="1584832543190" duration="8250000" />
+      <workItem from="1584832543190" duration="9935000" />
+      <workItem from="1584884655058" duration="812000" />
+      <workItem from="1584886299057" duration="698000" />
     </task>
     <servers />
   </component>
@@ -227,22 +217,22 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1583699013592" />
-    <state width="1520" height="249" key="GridCell.Tab.0.bottom" timestamp="1584836162144">
+    <state width="1520" height="249" key="GridCell.Tab.0.bottom" timestamp="1584883522906">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
-    <state width="1520" height="249" key="GridCell.Tab.0.center" timestamp="1584836162144">
+    <state width="1520" height="249" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
+    <state width="1520" height="249" key="GridCell.Tab.0.center" timestamp="1584883522906">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
-    <state width="1520" height="249" key="GridCell.Tab.0.left" timestamp="1584836162144">
+    <state width="1520" height="249" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
+    <state width="1520" height="249" key="GridCell.Tab.0.left" timestamp="1584883522906">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
-    <state width="1520" height="249" key="GridCell.Tab.0.right" timestamp="1584836162144">
+    <state width="1520" height="249" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
+    <state width="1520" height="249" key="GridCell.Tab.0.right" timestamp="1584883522906">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
+    <state width="1520" height="249" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
     <state x="365" y="595" key="run.anything.popup" timestamp="1582673034935">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>

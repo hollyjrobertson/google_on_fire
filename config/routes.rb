@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'welcome', to: 'sessions#welcome'
 
+  get 'contact', to: 'sessions#contact'
+
   delete 'logout', to: 'sessions#destroy'
 
   post 'file_manager/download_accountmanager', to: 'file_manager#download_accountmanager'
