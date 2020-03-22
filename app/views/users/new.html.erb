@@ -1,11 +1,14 @@
 <!-- Sign Up Page -->
 <% provide(:title, "Sign Up") %>
-<h1>Sign Up</h1>
+<div class="center jumbotron">
+  <h1>Sign Up</h1>
 
-<%= form_for @user do |f|%>
-  <%= f.label :username%><br>
-  <%= f.text_field :username%><br>
-  <%= f.label :password%><br>
-  <%= f.password_field :password%><br>
-  <%= f.submit %>
-<%end%>
+  <%= form_for @user do |f|%>
+    <%= f.label :username%><br>
+    <%= f.text_field :username%><br>
+    <%= f.label :password%><br>
+    <%= f.password_field :password%><br>
+    <br>
+    <%= f.submit "Submit", class: "btn btn-lg btn-primary" %>
+  <%end%>
+</div>
