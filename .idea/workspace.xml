@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/file_manager_controller_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/welcome_page_controller_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: Google_on_Fire">
+  <component name="RunManager" selected="Ruby.static_pages_controller_test">
     <configuration name="Development: Google_on_Fire" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Google_on_Fire" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -135,6 +140,24 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="static_pages_controller_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.static_pages_controller_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -160,7 +183,7 @@
       <workItem from="1584489453614" duration="1613000" />
       <workItem from="1584568653615" duration="295000" />
       <workItem from="1584578985199" duration="2975000" />
-      <workItem from="1584832543190" duration="2892000" />
+      <workItem from="1584832543190" duration="6074000" />
     </task>
     <servers />
   </component>
@@ -187,9 +210,28 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1583699013592" />
+    <state width="1520" height="249" key="GridCell.Tab.0.bottom" timestamp="1584836162144">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1520" height="249" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
+    <state width="1520" height="249" key="GridCell.Tab.0.center" timestamp="1584836162144">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1520" height="249" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
+    <state width="1520" height="249" key="GridCell.Tab.0.left" timestamp="1584836162144">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1520" height="249" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
+    <state width="1520" height="249" key="GridCell.Tab.0.right" timestamp="1584836162144">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1520" height="249" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1584836162144" />
     <state x="365" y="595" key="run.anything.popup" timestamp="1582673034935">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="365" y="595" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1582673034935" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/google_on_fire@static_pages_controller_test.rcov" NAME="static_pages_controller_test Coverage Results" MODIFIED="1584835808160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/controllers" MODULE_NAME="Google_on_Fire" />
   </component>
 </project>
