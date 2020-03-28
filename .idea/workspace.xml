@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/contact.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200227003022_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20200322211836_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5T/5Tsr8v5Z4JX8HAEl_1SrV5oFrgh5KvXxHVhTUVvGFF8.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/contact_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Lc/Lc2dCv6i5JdCkvJtVNndUy0lzOSUucTkWq44fRuJHBA.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nw/NwiT8fAPur1ptKivNtRbDomJsD1H-X6-tmLTlVmhvb8.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/sessions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,12 +67,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\sessions" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\layouts" />
-      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\test\mailers" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.static_pages_controller_test">
+  <component name="RunManager" selected="Ruby.users_controller_test">
     <configuration name="Development: Google_on_Fire" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Google_on_Fire" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -158,8 +170,22 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="users_controller_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.users_controller_test" />
         <item itemvalue="Ruby.static_pages_controller_test" />
       </list>
     </recent_temporary>
@@ -191,6 +217,12 @@
       <workItem from="1584832543190" duration="9935000" />
       <workItem from="1584884655058" duration="812000" />
       <workItem from="1584886299057" duration="698000" />
+      <workItem from="1584905253329" duration="9000" />
+      <workItem from="1584909515184" duration="1065000" />
+      <workItem from="1584911062923" duration="1801000" />
+      <workItem from="1584912906272" duration="3703000" />
+      <workItem from="1585427430303" duration="358000" />
+      <workItem from="1585429392849" duration="5727000" />
     </task>
     <servers />
   </component>
@@ -205,10 +237,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582240804728" />
-    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582679245953">
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584914175706">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1582679245953" />
+    <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1584914175706" />
     <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1582243194170">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
@@ -217,28 +249,29 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1583699013592" />
-    <state width="1520" height="249" key="GridCell.Tab.0.bottom" timestamp="1584883522906">
+    <state width="1302" height="269" key="GridCell.Tab.0.bottom" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
-    <state width="1520" height="249" key="GridCell.Tab.0.center" timestamp="1584883522906">
+    <state width="1302" height="269" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1585432664922" />
+    <state width="1302" height="269" key="GridCell.Tab.0.center" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
-    <state width="1520" height="249" key="GridCell.Tab.0.left" timestamp="1584883522906">
+    <state width="1302" height="269" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1585432664922" />
+    <state width="1302" height="269" key="GridCell.Tab.0.left" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
-    <state width="1520" height="249" key="GridCell.Tab.0.right" timestamp="1584883522906">
+    <state width="1302" height="269" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1585432664922" />
+    <state width="1302" height="269" key="GridCell.Tab.0.right" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1520" height="249" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1584883522906" />
-    <state x="365" y="595" key="run.anything.popup" timestamp="1582673034935">
+    <state width="1302" height="269" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1585432664922" />
+    <state x="366" y="594" key="run.anything.popup" timestamp="1585431883882">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="365" y="595" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1582673034935" />
+    <state x="366" y="594" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1585431883882" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/google_on_fire@static_pages_controller_test.rcov" NAME="static_pages_controller_test Coverage Results" MODIFIED="1584835808160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/controllers" MODULE_NAME="Google_on_Fire" />
+    <SUITE FILE_PATH="coverage/google_on_fire@users_controller_test.rcov" NAME="users_controller_test Coverage Results" MODIFIED="1585432645996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/controllers" MODULE_NAME="Google_on_Fire" />
   </component>
 </project>
