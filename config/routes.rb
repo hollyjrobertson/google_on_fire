@@ -1,20 +1,21 @@
 Rails.application.routes.draw do
-  resources :users, only: [:new, :create]
 
-  get 'login', to: 'sessions#new'
-
-  post 'login', to: 'sessions#create'
-
-  get 'signup', to: 'users#new'
-
-  get 'welcome', to: 'sessions#welcome'
-
-  get 'contact', to: 'sessions#contact'
-
-  delete 'logout', to: 'sessions#destroy'
-
-  post 'file_manager/download_accountmanager', to: 'file_manager#download_accountmanager'
+  resources :users
 
   root 'sessions#welcome'
+
+  get 'signup' => 'users#new'
+
+  get    'login'   => 'sessions#new'
+
+  post   'login'   => 'sessions#create'
+
+  delete 'logout'  => 'sessions#destroy'
+
+  get 'welcome' => 'sessions#welcome'
+
+  get 'contact' => 'sessions#contact'
+
+  post 'file_manager/download_accountmanager' => 'file_manager#download_accountmanager'
 
 end

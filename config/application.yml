@@ -9,9 +9,9 @@ db_default_username: 'root'
 db_default_password: 'admin'
 db_default_host: 'localhost'
 
-db_dev_database: 'google_on_fire_development'
+db_dev_database: 'google_on_fire_development_new'
 
-db_test_database: 'google_on_fire_test'
+db_test_database: 'google_on_fire_test_new'
 
 db_production_database: 'ebdb'
 db_production_username: 'admin'
