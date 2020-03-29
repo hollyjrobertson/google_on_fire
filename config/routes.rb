@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   get 'contact' => 'static_pages#contact'
 
-  post 'file_manager/download_accountmanager' => 'file_manager#download_accountmanager'
+  post 'download' => 'file_manager#download_accountmanager'
 
 end

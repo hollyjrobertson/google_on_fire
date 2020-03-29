@@ -21,6 +21,16 @@
     <%= @user.email %>
   </p>
 
+  <p>
+    <strong>Time:</strong>
+    <%= Time.now %>
+  </p>
+
+  <p>
+  <strong>Files:</strong>
+  <%= link_to "Download", download_path, :method => :post%>
+  </p>
+
   <%= link_to 'Edit', edit_user_path(@user), class: "btn btn-lg btn-primary" %> |
   <%= link_to 'Back', users_path, class: "btn btn-lg btn-primary" %>
 </div>
