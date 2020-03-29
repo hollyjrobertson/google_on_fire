@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20200329143701_add_password_digest_to_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,18 +51,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\test\mailers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\assets\stylesheets" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\static_pages" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\helpers" />
-      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\test\mailers" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.users_controller_test">
+  <component name="RunManager" selected="Ruby.controller_test">
     <configuration name="Development: Google_on_Fire" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Google_on_Fire" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -151,16 +144,17 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="static_pages_controller_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="controller_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Google_on_Fire" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/controllers" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test/controllers" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/the_controller_test.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -177,10 +171,18 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Rails.Development: Google_on_Fire" />
+      <item itemvalue="Rails.Production: Google_on_Fire" />
+      <item itemvalue="Rake.spec: Google_on_Fire" />
+      <item itemvalue="Rake.test: Google_on_Fire" />
+      <item itemvalue="Ruby.controller_test" />
+      <item itemvalue="Ruby.users_controller_test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.users_controller_test" />
-        <item itemvalue="Ruby.static_pages_controller_test" />
+        <item itemvalue="Ruby.controller_test" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,8 @@
       <workItem from="1584912906272" duration="3703000" />
       <workItem from="1585427430303" duration="358000" />
       <workItem from="1585429392849" duration="5727000" />
-      <workItem from="1585435576781" duration="6918000" />
+      <workItem from="1585435576781" duration="8397000" />
+      <workItem from="1585495559764" duration="2222000" />
     </task>
     <servers />
   </component>
@@ -228,10 +231,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582240804728">
+    <state x="484" y="799" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585494478174">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="301" y="831" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582240804728" />
+    <state x="484" y="799" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1585494478174" />
     <state x="478" y="976" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584914175706">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
@@ -240,10 +243,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582243194170" />
-    <state x="489" y="979" key="FileChooserDialogImpl" timestamp="1583699013592">
+    <state x="489" y="979" key="FileChooserDialogImpl" timestamp="1585494466490">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1583699013592" />
+    <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1585494466490" />
     <state width="1302" height="269" key="GridCell.Tab.0.bottom" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>

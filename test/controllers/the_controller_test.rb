@@ -25,6 +25,31 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     puts name + " passed"
   end
 
+  # Test that verifies if a user can signup
+  test "valid signup information" do
+    get signup_path
+    assert_difference 'User.count', 1 do
+      post users_path, params: { user: { name:  "Example User",
+                                         email: "user@example.com",
+                                         password:              "password",
+                                         password_confirmation: "password" } }
+      follow_redirect!
+    end
+    puts name + " passed"
+  end
+
+  # Test that verifies if a user can signup
+  test "invalid signup information" do
+    get signup_path
+    assert_no_difference 'User.count' do
+      post users_path, params: { user: { name:  "",
+                                         email: "user@example.com",
+                                         password:              "password",
+                                         password_confirmation: "password" } }
+    end
+    puts name + " passed"
+  end
+
   # Test that verifies a user can be saved to db
   test "setup user can save to db" do
     assert @user.valid?
