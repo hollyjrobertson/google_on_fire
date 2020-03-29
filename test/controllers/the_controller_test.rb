@@ -12,15 +12,29 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   end
 
   # Test that verifies the root_path returns a 200 success code
-  test "root_path" do
+  test "root path" do
     get root_path
     assert_response :success
     puts name + " passed"
   end
 
   # Test that verifies the get call to signup_path returns a 200 success code
-  test "get_signup_path" do
+  test "get signup path" do
     get signup_path
+    assert_response :success
+    puts name + " passed"
+  end
+
+  # Test that verifies the get call to users_path  returns a 200 success code
+  test "get users path" do
+    get users_path
+    assert_response :success
+    puts name + " passed"
+  end
+
+  # Test that verifies the get call to login_path returns a 200 success code
+  test "get login path" do
+    get login_path
     assert_response :success
     puts name + " passed"
   end
@@ -126,6 +140,24 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   test "password is more than 6 characters" do
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
+    puts name + " passed"
+  end
+
+  # Test that verifies if a user can login
+  test "verify a user can login" do
+    get login_path
+    log_in
+    assert_equal(is_logged_in?, true)
+    puts name + " passed"
+  end
+
+  # Test that verifies if a user can logout
+  test "verify a user can login then logout" do
+    get login_path
+    log_in
+    assert_equal(is_logged_in?, true, "True")
+    log_out
+    assert_equal(is_logged_in?, false, "False")
     puts name + " passed"
   end
 

@@ -14,12 +14,12 @@ class ActiveSupport::TestCase
   end
 
   # Logs in a user
-  def log_in(user)
-    session[:user_id] = user.id
+  def log_in
+    session[:user_id] = 2
   end
 
   # Log out a user
-  def log_out(user)
+  def log_out
     session[:user_id] = nil
   end
 end
