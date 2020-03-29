@@ -20,7 +20,6 @@ gem 'uglifier', '>= 1.3.0'
 # Bootstrap
 gem 'bootstrap-sass'
 # Use CoffeeScript for .coffee assets and views
-#
 # to set Environment Variables through config/application.yml 
 gem 'figaro'
 # Use CoffeeScript for .coffee assets and views
