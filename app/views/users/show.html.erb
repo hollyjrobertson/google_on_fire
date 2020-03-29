@@ -2,36 +2,43 @@
 <div class="row">
   <aside class="col-md-4">
     <section class="user_info">
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-        <p id="notice"><%= notice %></p>
-      </h1>
+      <%= gravatar_for @user %>
+      <p id="notice"><%= notice %></p>
     </section>
   </aside>
+  <aside class="col-md-4 spacing">
+    <div>
+      <h3>User Information</h3>
+    </div>
+    <div>
+      <strong>Name:</strong>
+      <%= @user.name %>
+    </div>
+    <div>
+      <strong>Email:</strong>
+      <%= @user.email %>
+    </div>
+    <div>
+      <strong>Time:</strong>
+      <%= Time.now %>
+    </div>
+
+  </aside>
+  <aside class="col-md-4 spacing">
+    <div>
+      <h3>Permissions</h3>
+    </div>
+    <div>
+      <strong>Files:</strong>
+      <%= link_to "Click to Download", download_path, :method => :post%>
+      </div>
+  </aside>
 </div>
-<div class="center">
-  <p>
-    <strong>Name:</strong>
-    <%= @user.name %>
-  </p>
 
-  <p>
-    <strong>Email:</strong>
-    <%= @user.email %>
-  </p>
-
-  <p>
-    <strong>Time:</strong>
-    <%= Time.now %>
-  </p>
-
-  <p>
-  <strong>Files:</strong>
-  <%= link_to "Download", download_path, :method => :post%>
-  </p>
-
-  <%= link_to 'Edit', edit_user_path(@user), class: "btn btn-lg btn-primary" %> |
-  <%= link_to 'Back', users_path, class: "btn btn-lg btn-primary" %>
+<div class="row">
+  <div class="center">
+    <%= link_to 'Edit', edit_user_path(@user), class: "btn btn-lg btn-primary" %> |
+    <%= link_to 'Back', users_path, class: "btn btn-lg btn-primary" %>
+  </div>
 </div>
 
