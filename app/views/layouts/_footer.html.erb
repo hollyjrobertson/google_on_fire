@@ -1,11 +1,11 @@
 <footer class="footer">
   <small>
-    <a href="root">Google On Fire</a>
-    by <a href="https://github.com/hollyjrobertson/Google_on_Fire">Holly Robertson</a>
+    <%= link_to "Google On Fire", root_path %>
+    by <%= link_to "Holly Robertson", 'https://github.com/hollyjrobertson/Google_on_Fire', :target => "_blank" %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to "Contact", 'contact' %></li>
+      <li><%= link_to "Contact", contact_path %></li>
     </ul>
   </nav>
 </footer>
