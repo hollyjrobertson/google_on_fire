@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +216,7 @@
       <workItem from="1585429392849" duration="5727000" />
       <workItem from="1585435576781" duration="8397000" />
       <workItem from="1585495559764" duration="8676000" />
-      <workItem from="1585505521452" duration="7649000" />
+      <workItem from="1585505521452" duration="7951000" />
     </task>
     <servers />
   </component>
@@ -242,10 +239,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="457" y="1009" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1582243194170" />
-    <state x="489" y="979" key="FileChooserDialogImpl" timestamp="1585514567026">
+    <state x="489" y="979" key="FileChooserDialogImpl" timestamp="1585515191194">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1585514567026" />
+    <state x="489" y="979" key="FileChooserDialogImpl/0.0.3072.1688@0.0.3072.1688" timestamp="1585515191194" />
     <state width="1302" height="269" key="GridCell.Tab.0.bottom" timestamp="1585432664922">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
