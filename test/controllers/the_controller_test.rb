@@ -7,7 +7,8 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   # Defines @base_title to be used in many tests
   def setup
     @base_title = "Google on Fire App"
-    @user = User.new(name: "Example User", email: "user@example.com")
+    @user = User.new(name: "Example User", email: "user@example.com",
+                     password: "foobar", password_confirmation: "foobar")
   end
 
   # Test that verifies the root_path returns a 200 success code
@@ -17,9 +18,9 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     puts name + " passed"
   end
 
-  # Test that verifies the get call to login_path returns a 200 success code
-  test "get_login_path" do
-    get login_path
+  # Test that verifies the get call to signup_path returns a 200 success code
+  test "get_signup_path" do
+    get signup_path
     assert_response :success
     puts name + " passed"
   end
@@ -86,6 +87,20 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     duplicate_user.email = @user.email.upcase
     @user.save
     assert_not duplicate_user.valid?
+    puts name + " passed"
+  end
+
+  # Test that verifies a password is present before saving to db
+  test "user has a password" do
+    @user.password = @user.password_confirmation = " " * 6
+    assert_not @user.valid?
+    puts name + " passed"
+  end
+
+  # Test that verifies a password is at least 6 characters before saving to db
+  test "password is more than 6 characters" do
+    @user.password = @user.password_confirmation = "a" * 5
+    assert_not @user.valid?
     puts name + " passed"
   end
 

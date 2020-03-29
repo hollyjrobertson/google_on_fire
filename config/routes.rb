@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get 'home' => 'static_pages#home'
 
+  get 'signup' => 'users#new'
+
   get 'contact' => 'static_pages#contact'
 
   post 'file_manager/download_accountmanager' => 'file_manager#download_accountmanager'

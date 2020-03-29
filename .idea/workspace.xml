@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20200329143701_add_password_digest_to_users.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3h/3hUOmnnL65UoOZe9KmF70-shPuNa7Ven2HfN4O_Jmvg.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +48,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/static_pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,11 +62,11 @@
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\test\mailers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\assets\stylesheets" />
+      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\static_pages" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\helpers" />
       <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\users" />
-      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\sessions" />
-      <recent name="C:\Users\Holly\Google Drive\WEBD 435\google_on_fire\app\views\layouts" />
     </key>
   </component>
   <component name="RunManager" selected="Ruby.users_controller_test">
@@ -205,7 +217,7 @@
       <workItem from="1584912906272" duration="3703000" />
       <workItem from="1585427430303" duration="358000" />
       <workItem from="1585429392849" duration="5727000" />
-      <workItem from="1585435576781" duration="5059000" />
+      <workItem from="1585435576781" duration="6918000" />
     </task>
     <servers />
   </component>
