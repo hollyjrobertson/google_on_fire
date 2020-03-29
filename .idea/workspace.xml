@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +217,7 @@
       <workItem from="1585429392849" duration="5727000" />
       <workItem from="1585435576781" duration="8397000" />
       <workItem from="1585495559764" duration="8676000" />
+      <workItem from="1585505521452" duration="460000" />
     </task>
     <servers />
   </component>
