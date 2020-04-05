@@ -2,6 +2,7 @@ class SessionsController < ApplicationController
   def new
   end
 
+  #Login Method - Creates a session by setting :session_id
   def create
     flash[:notice] = 'Successfully Logged In'
     user = User.find_by(email: params[:session][:email].downcase)
