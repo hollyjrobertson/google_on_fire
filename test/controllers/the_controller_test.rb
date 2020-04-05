@@ -25,13 +25,6 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     puts name + " passed"
   end
 
-  # Test that verifies the get call to users_path  returns a 200 success code
-  test "get users path" do
-    get users_path
-    assert_response :success
-    puts name + " passed"
-  end
-
   # Test that verifies the get call to login_path returns a 200 success code
   test "get login path" do
     get login_path

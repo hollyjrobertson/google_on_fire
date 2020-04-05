@@ -22,4 +22,5 @@ class ActiveSupport::TestCase
   def log_out
     session[:user_id] = nil
   end
+
 end
