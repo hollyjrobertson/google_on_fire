@@ -7,8 +7,11 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   # Defines @base_title to be used in many tests
   def setup
     @base_title = "Google on Fire App"
-    @user = User.new(name: "Example User", email: "user@example.com",
+    @user = User.new(id: 1, name: "Example User", email: "user@example.com",
                      password: "foobar", password_confirmation: "foobar")
+    @testChore = @user.chores.build(title: "Sweep", description: "Sweep the floors", price: 10,
+                                    difficultyLvl: 2, completeBy: 3/28/2024, isFunded: 0, isAvailable: 0, isCheckedOut: 0,
+                                    isCompleted: 0, isApproved: 0, isPaid: 0)
   end
 
   # Test that verifies the root_path returns a 200 success code
@@ -151,6 +154,12 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     assert_equal(is_logged_in?, true, "True")
     log_out
     assert_equal(is_logged_in?, false, "False")
+    puts name + " passed"
+  end
+
+  # Test that a chore can be created in the Chores Table
+  test "add chore" do
+    assert_equal(1, @testChore[:user_id])
     puts name + " passed"
   end
 
