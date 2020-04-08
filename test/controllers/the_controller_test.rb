@@ -11,6 +11,7 @@ class TheControllerTest < ActionDispatch::IntegrationTest
                      password: "foobar", password_confirmation: "foobar")
   end
 
+
   # Test that verifies the root_path returns a 200 success code
   test "root path" do
     get root_path
