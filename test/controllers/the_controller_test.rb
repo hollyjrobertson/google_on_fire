@@ -6,7 +6,7 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   puts "********Testing Begin***************"
   # Defines @base_title to be used in many tests
   def setup
-    @base_title = "Google on Fire App"
+
     @user = User.new(id: 1, name: "Example User", email: "user@example.com",
                      password: "foobar", password_confirmation: "foobar")
     @testChore = @user.chores.build(title: "Sweep", description: "Sweep the floors", price: 10,
@@ -158,9 +158,23 @@ class TheControllerTest < ActionDispatch::IntegrationTest
     puts name + " passed"
   end
 
-  # Test that a chore can be created in the Chores Table
-  test "add chore" do
-    assert_equal(1, @testChore[:user_id])
+  # Test the order of the Chores Table
+  test "order of chores" do
+    assert_equal(1, Chore.first.difficultyLvl)
+    puts name + " passed"
+  end
+
+  # Test the length of the Chores Table
+  test "length of chores" do
+    assert_equal(6, Chore.count)
+    puts name + " passed"
+  end
+
+  # Test that chores are deleted when a user is deleted
+  test "delete chores when user is delted" do
+    @user.save
+    @user.destroy
+    assert_equal(0, Chore.count)
     puts name + " passed"
   end
 
