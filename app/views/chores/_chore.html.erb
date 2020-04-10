@@ -1,0 +1,6 @@
+<li>
+  <%= link_to gravatar_for(chore.user, size: 50), chore.user %>
+  <span class="user"><%= link_to chore.user.name, chore.user %></span>
+  <span class="title"><%= chore.title %></span>
+  <span class="timestamp">Made <%= time_ago_in_words(chore.created_at) %> ago.</span>
+</li>

@@ -22,23 +22,25 @@
       <strong>Time:</strong>
       <%= Time.now %>
     </div>
-
-  </aside>
-  <aside class="col-md-4 spacing">
-    <div>
-      <h3>Permissions</h3>
-    </div>
     <div>
       <strong>Files:</strong>
       <%= link_to "Click to Download", download_path, :method => :post%>
-      </div>
+    </div>
   </aside>
-</div>
-
-<div class="row">
-  <div class="center">
-    <%= link_to 'Edit', edit_user_path(@user), class: "btn btn-lg btn-primary" %> |
-    <%= link_to 'Back', users_path, class: "btn btn-lg btn-primary" %>
+  <div class="col-md-4">
+    <% if @user.chores.any? %>
+      <h3>Chores (<%= @user.chores.count %>)</h3>
+        <ol>
+          <%= render @chores %>
+        </ol>
+      <%= will_paginate @chores %>
+    <% end %>
+  </div>
+  <div class="row">
+    <div class="center">
+      <%= link_to 'Edit', edit_user_path(@user), class: "btn btn-lg btn-primary" %> |
+      <%= link_to 'Back', users_path, class: "btn btn-lg btn-primary" %>
+    </div>
   </div>
 </div>
 
