@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/chores.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/chores.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/chores_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/chores_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/chores/_chore.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/clean bathroom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/clean kitchen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/clean living room.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/clean room.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/dust house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/laundry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mop house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mop kitchen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/sweep house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/sweep kitchen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/vacuum house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/vacuum living room.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/default_chores.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/chores_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chores_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/chores_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/chores_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/chores/_chore.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chores/_chore.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/Yh9AfvVHJLGjDm8KlGD69iU7F_B9YN9P_jHfbsgVs18.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/chores_controller_test.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uk/uk0YHa01eH10v3a9dVDZLx9N49vYfpzWVhAjMj0Bnd8.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +242,7 @@
       <workItem from="1585495559764" duration="8676000" />
       <workItem from="1585505521452" duration="12840000" />
       <workItem from="1586032959921" duration="37674000" />
-      <workItem from="1586386540772" duration="7425000" />
+      <workItem from="1586386540772" duration="24598000" />
     </task>
     <servers />
   </component>
@@ -273,10 +285,10 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state width="1577" height="276" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1586108970934" />
-    <state x="366" y="594" key="run.anything.popup" timestamp="1585431883882">
+    <state x="366" y="594" key="run.anything.popup" timestamp="1586558701545">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="366" y="594" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1585431883882" />
+    <state x="366" y="594" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1586558701545" />
     <state x="1608" y="767" width="672" height="678" key="search.everywhere.popup" timestamp="1585509172279">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>

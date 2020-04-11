@@ -1,0 +1,18 @@
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Mop", "Mop the floors", 12, 3, '2020-5-1', 1, 1, 0, 0, 0, 0, '2020-4-2', '2020-4-10');
+
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Sweep", "Sweep the floors", 10, 2, '2020-5-1', 1, 1, 0, 0,  0, 0, '2020-4-2', '2020-4-10');
+
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Vacuum", "Vacuum the floors", 8, 3, '2020-5-1', 1, 1, 0, 0,  0, 0, '2020-4-2', '2020-4-10');
+
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Dust", "Dust the shelves", 9, 1, '2020-5-1', 1, 1, 0, 0,  0, 0, '2020-4-2', '2020-4-10');
+
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Kitchen", "Clean the Kitchen", 15, 4, '2020-5-1', 1, 1, 0, 0,  0, 0, '2020-4-2', '2020-4-10');
+
+INSERT INTO chores (user_id, title, description, price, difficultyLvl, completeBy, isFunded, isAvailable, isCheckedOut, isCompleted, isApproved, isPaid, created_at, updated_at) VALUES 
+(1, "Laundry", "Do the Laundry", 20, 5, '2020-5-1', 1, 1, 0, 0,  0, 0, '2020-4-2', '2020-4-10');
+
