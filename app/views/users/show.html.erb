@@ -30,7 +30,7 @@
   <div class="col-md-4">
     <% if @user.chores.any? %>
       <h3>Chores (<%= @user.chores.count %>)</h3>
-        <ol>
+        <ol class="chores">
           <%= render @chores %>
         </ol>
       <%= will_paginate @chores %>

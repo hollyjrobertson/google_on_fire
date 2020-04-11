@@ -1,6 +1,6 @@
 <li>
-  <%= link_to gravatar_for(chore.user, size: 50), chore.user %>
-  <span class="user"><%= link_to chore.user.name, chore.user %></span>
-  <span class="title"><%= chore.title %></span>
-  <span class="timestamp">Made <%= time_ago_in_words(chore.created_at) %> ago.</span>
-</li>
+  <%= image_tag chore.title.downcase, height: 50, class: border_class(chore) %>
+  <span class="title"><%= link_to chore.title, chore.user %></span>
+  <span class="user"><%= link_to "Parent #{chore.user.name}", chore.user %></span>
+  <span class="user">Due: <%= due_date(chore) %></span>
+ </li>

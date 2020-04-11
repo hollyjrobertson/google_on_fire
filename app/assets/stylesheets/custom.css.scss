@@ -113,11 +113,12 @@ table th {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
-  .user {
+  .title {
     margin-top: 5em;
     padding-top: 0;
   }
-  .title {
+  .user {
+    font-weight: bold;
     display: block;
     margin-left: 60px;
     img {
@@ -137,6 +138,22 @@ table th {
   }
 }
 
+/* chore borders based on chore isCheckedOut status*/
+/* Chore is not checked out */
+.green {
+  border: 2px solid #32a852;
+  padding: 1%;
+}
+/* Chore is checked out */
+.orange {
+  border: 2px solid #e6d419;
+  padding: 1%;
+}
+/* Chore is not available */
+.red {
+  border: 2px solid #e61919;
+  padding: 1%;
+}
 
 /* footer */
 

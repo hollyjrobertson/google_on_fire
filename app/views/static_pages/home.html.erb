@@ -6,8 +6,12 @@
     <h2>This is the home page for the Google on Fire</a>
     sample application.</h2>
     <div>
-      <%= link_to "Sign up", signup_path, {:style=>'color:#FFFFFF;', :class => "btn btn-lg btn-primary"} %>
-      <%= link_to "Log in", login_path, {:style=>'color:#FFFFFF;', :class => "btn btn-lg btn-success"} %>
+      <% if is_admin? %>
+        <%= link_to "Users", users_path, {:style=>'color:#FFFFFF;', :class => "btn btn-lg btn-info"} %>
+      <% elsif !logged_in? %>
+        <%= link_to "Sign up", signup_path, {:style=>'color:#FFFFFF;', :class => "btn btn-lg btn-primary"} %>
+        <%= link_to "Log in", login_path, {:style=>'color:#FFFFFF;', :class => "btn btn-lg btn-success"} %>
+      <% end %>
     </div>
   </div>
 </div>
