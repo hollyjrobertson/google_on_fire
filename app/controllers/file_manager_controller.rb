@@ -4,7 +4,7 @@ class FileManagerController < ApplicationController
     #Version 7.1.2
     def download_accountmanager
     send_file(
-        "app/assets/files/GoogleAccountManager_7.1.2.apk",
+        "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=97485",
         filename: "Install 1st",
         type: "application/vnd.android.package-archive"
     )
