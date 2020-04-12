@@ -24,7 +24,13 @@
     </div>
     <div>
       <strong>Files:</strong>
-      <%= link_to "Click to Download", download_path, :method => :post%>
+      <ul>
+        <li><%= link_to "Click to Download First File", first_path, :method => :post%></li>
+        <li><%= link_to "Click to Download Second File", second_path, :method => :post%></li>
+        <li><%= link_to "Click to Download Third File", third_path, :method => :post%></li>
+        <li><%= link_to "Click to Download Fourth File", fourth_path, :method => :post%></li>
+      </ul>
+
     </div>
   </aside>
   <!-- <div class="col-md-4">
