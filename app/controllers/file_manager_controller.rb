@@ -33,9 +33,9 @@ class FileManagerController < ApplicationController
   #First File to download - Google Account Manager APK
   #Version 7.1.2
   def download_accountmanager
-    send_data(
-        "app/assets/files/GooglePlayServices_20.06.15_120400.zip",
-        filename: "Files",
+    send_file(
+        "app/assets/files/GoogleAccountManager_7.1.2.apk",
+        filename: "File 1 - Google Account Manager APK.apk",
         type: "application/vnd.android.package-archive"
     )
   end
