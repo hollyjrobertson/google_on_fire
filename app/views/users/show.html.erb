@@ -25,10 +25,14 @@
     <div>
       <strong>Files:</strong>
       <ul>
-        <li><%= link_to "Click to Download First File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=193911", :target =>"_blank", :preload => true%></li>
+       <!-- <li><%= link_to "Click to Download First File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=193911", :target =>"_blank", :preload => true%></li>
         <li><%= link_to "Click to Download Second File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=980582", :target =>"_blank", :preload => true%></li>
         <li><%= link_to "Click to Download Third File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=1009960", :target =>"_blank", :preload => true%></li>
-        <li><%= link_to "Click to Download Fourth File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=1047322", :target =>"_blank", :preload => true%></li>
+        <li><%= link_to "Click to Download Fourth File", "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=1047322", :target =>"_blank", :preload => true%></li> -->
+        <li><%= link_to "Click to Download First File", first_path, :method => 'post' %></li>
+        <li><%= link_to "Click to Download Second File", second_path, :method => 'post' %></li>
+        <li><%= link_to "Click to Download Third File", third_path, :method => 'post' %></li>
+        <li><%= link_to "Click to Download Fourth File", fourth_path, :method => 'post' %></li>
       </ul>
 
     </div>
