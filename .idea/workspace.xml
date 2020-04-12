@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349e3245-2306-4543-b6a9-bf9bd9f3b973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/clean bathroom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/clean kitchen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/clean living room.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/clean room.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/dust house.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/laundry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/mop house.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/mop kitchen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/sweep house.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/sweep kitchen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/vacuum house.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/vacuum living room.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default_chores.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/chores_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/chores_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/chores_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/chores_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/chores/_chore.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chores/_chore.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/chores_controller_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hd/hdzs0ZIL1ZGlbCmjPklaUZI4Wz0gxNO4s_Ca3ed63pg.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/the_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +219,7 @@
       <workItem from="1585495559764" duration="8676000" />
       <workItem from="1585505521452" duration="12840000" />
       <workItem from="1586032959921" duration="37674000" />
-      <workItem from="1586386540772" duration="24598000" />
+      <workItem from="1586386540772" duration="29106000" />
     </task>
     <servers />
   </component>

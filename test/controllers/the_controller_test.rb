@@ -171,7 +171,7 @@ class TheControllerTest < ActionDispatch::IntegrationTest
   end
 
   # Test that chores are deleted when a user is deleted
-  test "delete chores when user is delted" do
+  test "delete chores when user is deleted" do
     @user.save
     @user.destroy
     assert_equal(0, Chore.count)
